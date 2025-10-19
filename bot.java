@@ -4,16 +4,11 @@ public class bot {
     public static void main(String[] args) {
         try {
          
-            Runtime.getRuntime().exec("chmod +x a.sh b.sh").waitFor();
+            Runtime.getRuntime().exec("chmod +x a.sh").waitFor();
 
             System.out.println("Install dependencies A...");
             Process p1 = Runtime.getRuntime().exec("./a.sh");
             p1.waitFor();
-
-
-            System.out.println("Install dependencies B...");
-            Process p2 = Runtime.getRuntime().exec("./b.sh");
-            p2.waitFor();
 
    
             System.out.println("app is running");
