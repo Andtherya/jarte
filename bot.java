@@ -1,6 +1,6 @@
 import java.io.IOException;
 
-public class Bot {
+public class bot {
     public static void main(String[] args) {
         try {
          
