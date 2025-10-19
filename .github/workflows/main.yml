@@ -1,9 +1,7 @@
 name: Build bot.jar
 
 on:
-  push:
-    branches:
-      - bot.java
+
   workflow_dispatch:
 
 jobs:
