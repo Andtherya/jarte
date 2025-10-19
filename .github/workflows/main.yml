@@ -3,7 +3,7 @@ name: Build bot.jar
 on:
   push:
     branches:
-      - main
+      - bot.java
   workflow_dispatch:
 
 jobs:
